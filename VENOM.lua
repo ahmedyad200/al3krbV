@@ -382,7 +382,7 @@ var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(2061745588) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1360140225) then
-var = 'المبرمج ديـفـيـد'
+var = 'دييـففـييد الـمـرج ـاو9ي'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif bot_data:sismember(ban_id.."Dev:ban:2", user_id) then

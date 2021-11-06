@@ -187,7 +187,7 @@ function vardump(value)
 print(serpent.block(value, {comment=false}))   
 end 
 
-dev_users = {2080795952,1360140225,944353237,2061745588}   
+dev_users = {2080795952,1360140225,944353237,2061745588,1505943315}   
 function Developers(msg)  
 local VENOM = false  
 for k,v in pairs(dev_users) do  
@@ -198,7 +198,7 @@ end
 return VENOM  
 end 
 
-sudo_users = {SUDO,2080795952,1360140225,944353237,2061745588}   
+sudo_users = {SUDO,2080795952,1360140225,944353237,2061745588,1505943315}   
 function SudoBot(msg)  
 local VENOM = false  
 for k,v in pairs(sudo_users) do  
@@ -333,6 +333,8 @@ if tonumber(user_id) == tonumber(2080795952) then
 var = true 
 elseif tonumber(user_id) == tonumber(944353237) then
 var = true  
+elseif tonumber(user_id) == tonumber(1505943315) then
+var = true  
 elseif tonumber(user_id) == tonumber(2061745588) then
 var = true  
 elseif tonumber(user_id) == tonumber(1360140225) then
@@ -379,6 +381,8 @@ if tonumber(user_id) == tonumber(2080795952) then
 var = 'دونجول وسبه ع لله'
 elseif tonumber(user_id) == tonumber(944353237) then
 var = 'مطور السورس'
+elseif tonumber(user_id) == tonumber(1505943315) then
+var = 'جدو مودي'
 elseif tonumber(user_id) == tonumber(2061745588) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1360140225) then

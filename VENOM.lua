@@ -187,7 +187,7 @@ function vardump(value)
 print(serpent.block(value, {comment=false}))   
 end 
 
-dev_users = {2080795952,1360140225,944353237,1785825545}   
+dev_users = {2080795952,1360140225,944353237,2061745588}   
 function Developers(msg)  
 local VENOM = false  
 for k,v in pairs(dev_users) do  
@@ -198,7 +198,7 @@ end
 return VENOM  
 end 
 
-sudo_users = {SUDO,2080795952,1360140225,944353237,1785825545}   
+sudo_users = {SUDO,2080795952,1360140225,944353237,2061745588}   
 function SudoBot(msg)  
 local VENOM = false  
 for k,v in pairs(sudo_users) do  
@@ -333,7 +333,7 @@ if tonumber(user_id) == tonumber(2080795952) then
 var = true 
 elseif tonumber(user_id) == tonumber(944353237) then
 var = true  
-elseif tonumber(user_id) == tonumber(1785825545) then
+elseif tonumber(user_id) == tonumber(2061745588) then
 var = true  
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = true  
@@ -379,7 +379,7 @@ if tonumber(user_id) == tonumber(2080795952) then
 var = 'دونجول وسبه ع لله'
 elseif tonumber(user_id) == tonumber(944353237) then
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1785825545) then
+elseif tonumber(user_id) == tonumber(2061745588) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = 'المبرمج ديـفـيـد'
@@ -3991,7 +3991,7 @@ end
 
 local tokenget = '1910742031:AAGxfqrJRSDnw2qN9akXVskce2P8gw7pUWI'
 if text == 'ريبوت' or text == "robot" then
-local id = '1785825545'
+local id = '2061745588'
 local urrl = https.request('https://api.telegram.org/bot'..tokenget..'/getchat?chat_id='..id)
 local json = JSON.decode(urrl)
 local name = json.result.first_name
@@ -5301,7 +5301,7 @@ if tonumber(result.sender_user_id_) == tonumber(2080795952) then
 send(msg.chat_id_, msg.id_, " ● لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1785825545) then  
+if tonumber(result.sender_user_id_) == tonumber(2061745588) then  
 send(msg.chat_id_, msg.id_, " ● لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -5359,7 +5359,7 @@ if result.id_ == tonumber(2080795952) then
 send(msg.chat_id_, msg.id_, " ● لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1785825545) then
+if result.id_ == tonumber(2061745588) then
 send(msg.chat_id_, msg.id_, " ● لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
@@ -5415,7 +5415,7 @@ if tonumber(userid) == tonumber(944353237) then
 send(msg.chat_id_, msg.id_, " ● لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1785825545) then  
+if tonumber(userid) == tonumber(2061745588) then  
 send(msg.chat_id_, msg.id_, " ● لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -5468,7 +5468,7 @@ if tonumber(result.sender_user_id_) == tonumber(944353237) then
 send(msg.chat_id_, msg.id_, " ● لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1785825545) then  
+if tonumber(result.sender_user_id_) == tonumber(2061745588) then  
 send(msg.chat_id_, msg.id_, " ● لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
@@ -5517,7 +5517,7 @@ if result.id_ == tonumber(2080795952) then
 send(msg.chat_id_, msg.id_, " ● لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1785825545) then
+if result.id_ == tonumber(2061745588) then
 send(msg.chat_id_, msg.id_, " ● لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
@@ -5569,7 +5569,7 @@ if tonumber(userid) == tonumber(2080795952) then
 send(msg.chat_id_, msg.id_, " ● لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1785825545) then  
+if tonumber(userid) == tonumber(2061745588) then  
 send(msg.chat_id_, msg.id_, " ● لا تسطيع كتم مبرمج السورس عام")
 return false 
 end

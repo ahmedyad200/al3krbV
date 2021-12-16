@@ -166,7 +166,7 @@ function vardump(value)
 print(serpent.block(value, {comment=false}))   
 end 
 
-dev_users = {944353237,1425886933,1388114820,1742966654,1238166911,   
+dev_users = {944353237,1425886933,1388114820,1742966654,1238166911,1896887905,1238166911,1129118289}
 function Developers(msg)  
 local VENOM = false  
 for k,v in pairs(dev_users) do  
@@ -177,7 +177,7 @@ end
 return VENOM  
 end 
 
-sudo_users = {SUDO,944353237,}   
+sudo_users = {SUDO,944353237,1425886933,1388114820,1742966654,1238166911,1896887905,1238166911,1129118289}
 function SudoBot(msg)  
 local VENOM = false  
 for k,v in pairs(sudo_users) do  

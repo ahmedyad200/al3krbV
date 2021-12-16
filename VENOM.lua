@@ -27,7 +27,7 @@ local token = io.read()
 if token ~= '' then
 local url , res = https.request('https://api.telegram.org/bot'..token..'/getMe')
 if res ~= 200 then
-print('\27[0;31m╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n\ التوكن غير صحيح تاكد منه ثم ارسله')
+print('\27[0;31m╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n التوكن غير صحيح تاكد منه ثم ارسله')
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \n╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸\n\27[0;39;49m')
 local json = JSON.decode(url)
